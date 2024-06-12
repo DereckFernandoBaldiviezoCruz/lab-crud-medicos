@@ -23,5 +23,5 @@ sequelize.sync()
     });
   })
   .catch((error) => {
-    console.error('Unable to synchronize the database:', error);
+    console.error('No se pudo conectar a la base de datos: ', error);
   });
